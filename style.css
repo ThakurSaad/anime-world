@@ -32,11 +32,9 @@ h1.welcome-heading {
 .welcome-writing-part {
     width: 50%;
     padding: 5%;
-    background-color: gray;
 }
 .welcome-img-part {
     width: 50%;
-    background-color: indianred;
 }
 .button-style {
     margin-top: 30px;
