@@ -10,6 +10,13 @@ p {
     color: black;
     opacity: .7;
 }
+a {
+    text-decoration: none;
+    transition: .2s;
+}
+a:hover {
+    color: blue;
+}
 h1.welcome-heading {
     font-size: 50px;
     font-family: 'Roboto Slab', serif;
@@ -56,6 +63,45 @@ h1.welcome-heading {
     color: white;    
     cursor: pointer;
 }
+/* history part  */
+.history-part {
+    margin-bottom: 100px;
+}
+.history-part h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.cards-part {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.card {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px 20px 100px 40px;
+    border-radius: 20px;
+}
+.invention {
+    background-color: rgba(2, 253, 2, 0.151);
+}
+.father {
+    background-color: rgba(255, 0, 0, 0.116);
+}
+.evolution {
+    background-color: rgba(0, 0, 255, 0.11);
+}
+.card-illustration img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+.card-caption  {
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 700;
+}
 /* future part  */
 .future-part {
     display: flex;
@@ -82,6 +128,7 @@ h1.welcome-heading {
     display: flex;
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 100px;
     padding: 5%;
 }
 .community-part .writing-part {
