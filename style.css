@@ -154,3 +154,16 @@ footer h3 {
     font-weight: 200;
     opacity: 1;
 }
+/* bonus part  */
+.bonus-part {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.bonus-img {
+    text-align: center;
+}
+.antik {
+    margin: 100px 0 ;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.253);
+}
